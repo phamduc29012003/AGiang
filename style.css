@@ -316,9 +316,6 @@ table, td, th{
     border:1px solid #ccc;
     border-collapse:collapse;
 }
-table tr:nth-child(odd){
-    
-}
 th {
     background:#85baeb;
 }
@@ -368,12 +365,11 @@ th {
     border-radius: 3px;
     text-align: center;
     line-height: 40px;
-    cursor:pointer;s
+    cursor:pointer;
 }
 .column-chart {
-    margin-left:50px;
-    margin-top:50px;
-    
+   margin-left: 50px;
+    margin-top: 50px;
 }
 .column-chart img{
     width:1028px;
@@ -439,4 +435,97 @@ table.table3 {
     color: #000;
     align-items: center;
     text-align: center;
+}
+.changes-time {
+    margin-top: 30px;
+    font-size: 16px;
+    margin-left: 50px;
+    
+}
+.change {
+    display:flex;
+    height: 40px;
+    width: 105px;
+    align-items: center;
+    line-height: 40px;
+    background-color: #ccc;
+    color: #2596FF;
+    cursor: pointer;
+    justify-content: center;
+}
+.change p {
+    margin-right: 5px;
+}
+.time p {
+    color: #2596FF;
+}
+.report-customer{
+    margin-left: 50px;
+}
+.report-customer img {
+    width: 1028px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.next-report {
+    display: flex;
+    margin-left: 50px;
+    font-size: 20px;
+    align-items: center;
+}
+.next-report i {
+    margin-right: 5px;
+}
+.about-time {
+    display: flex;
+    margin-left: 50px;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-time-btn {
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    background-color: #ccc;
+    border-radius: 3px;
+    margin-right: 80px;
+}
+.about-time-btn p {
+    line-height: 40px;
+}
+.month-btn {
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    background-color: #ccc;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 80px;
+}
+.month-btn p {
+    line-height: 40px;
+}
+.all-branch-btn {
+    width: 170px;
+    height: 40px;
+    text-align: center;
+    background-color: #ccc;
+    border-radius: 3px;
+}
+.all-branch-btn p {
+    line-height: 40px;
+}
+.note {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.finance-img {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.finance-img img {
+    width: 1059px;
 }
